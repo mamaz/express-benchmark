@@ -1,0 +1,17 @@
+{
+  "name": "benchmark",
+  "version": "1.0.0",
+  "description": "Benchmark the Node.js version 6.11.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "author": "mamaz",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.0.36",
+    "express": "^4.15.4",
+    "mocha": "^3.5.0"
+  }
+}
