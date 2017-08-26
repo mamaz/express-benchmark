@@ -22,3 +22,14 @@ Statistics        Avg      Stdev        Max
 
 - Add compresion
 - Use NODE_ENV=production
+
+Bombarding http://localhost:3000/test with 5000000 requests using 125 connections
+ 5000000 / 5000000 [====================================================] 100.00% 15m17s
+Done!
+Statistics        Avg      Stdev        Max
+  Reqs/sec      5449.45     920.49       6589
+  Latency       22.94ms     3.91ms   116.15ms
+  HTTP codes:
+    1xx - 0, 2xx - 5000000, 3xx - 0, 4xx - 0, 5xx - 0
+    others - 0
+  Throughput:     1.54MB/s
