@@ -6,6 +6,12 @@ Simple single process Express.js benchmark.
 
 ## How to Run
 
+Set up:
+
+Go to root folder, then run:
+
+`npm install`
+
 To run:
 
 `npm start`
