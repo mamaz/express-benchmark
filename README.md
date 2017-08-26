@@ -8,9 +8,13 @@ Simple single process Express.js benchmark.
 
 Set up:
 
-Go to root folder, then run:
+- Go to root folder, then run: `npm install`
 
-`npm install`
+To compile to JS:
+
+- Install typescript: `npm install -g typescript`
+
+- Run `tsc index.ts`
 
 To run:
 
